@@ -1,0 +1,45 @@
+.animatenum {
+    height: 44px;
+    overflow: hidden;
+    float: right;
+}
+
+span.num-area {
+    width: 30px;
+    position: relative;
+    float: left;
+    height: 44px;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+    /*background: url(../assets/images/gbg.png) no-repeat;*/
+    background-size: contain;
+    background-color: skyblue;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0 2px;
+}
+
+span.symbol {
+    background: none;
+    width: 6px;
+    margin: 0;
+    color: #59b900
+}
+
+span.num-area .num-box {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 5;
+    width: 30px;
+    height: 44px;
+    line-height: 44px;
+    transition: all 3s ease-in-out;
+    text-align: center;
+}
+
+.num-area .num {
+    display: block;
+    line-height: 44px;
+}
