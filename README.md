@@ -1,3 +1,8 @@
-###### 此项目没有任何具体意义,仅仅包含多个自用vue组件(个别vue组件需要单独引入pages文件夹下的对应名称的css文件,比如count-num组件就需要)
-- count-num 数字滚动组件. 用法<count-num :start="" :end="" :duration="" :seperator="split" :id=""></count-num>
+###### 此项目没有任何具体意义,仅仅包含多个自用vue组件(个别vue组件需要单独引入pages文件夹下的对应名称的css文件,比如count)
+### 在此声明!此处的组件均为本人因为项目业务需要而去写的符合本人业务需求的,也是自用的,所以不负责满足你们的需求,可以拿去用,但是请自己完善使其符合你的需求,另外可以的话请给一个star 谢谢!!!!
+- count 数字滚动组件. 用法<count-num :start="" :end="" :duration="" :seperator="split" :id=""></count-num>
 可以传递五个参数 分别表示开始的数字  滚倒目标数字  滚动持续时长   是否用逗号做千分位分隔符  唯一标识ID
+
+- waterMaek 给页面添加组件,参数可以进入组件内部的datas里去查看
+
+- floatWindows 模拟手机的touch悬浮按钮 在页面可以点击展开或者按住拖拽的一个悬浮按钮菜单
